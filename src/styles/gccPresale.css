@@ -1,0 +1,171 @@
+.presale--container{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.ova-heading-2 .sub-title-wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #000;
+}
+.presale--title{
+    font-size: 45px;
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    /* color: #160647; */
+    line-height: 1.1;
+}
+.presale--word {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #F25EDA 10%, #4BB3FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.sub-title-wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #FFF;
+}
+.sub-title{
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.presale--para{
+    margin: 0px 10px 0px 0px;
+}
+.presale--para p{
+    color:#fff;
+}
+.gcc--position{
+    padding: 50px 50px 60px 60px;
+    background-color: #000;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.para--container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para--container p{
+    color: #000000;
+    font-family: "Arimo", Sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-size: 15px;
+    max-width: 95%;
+}
+.left--div{
+    height: 100%;
+}
+.right--div{
+    background-color: #000;
+    position: relative;
+    left: -15px;
+    bottom:60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30.1px;
+}
+.counter--container{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF;
+    padding: 0px 0px 18px 0px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.countdown--title{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.countdown--box--container{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.count--down--box{
+    background-color: #fff;
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.countdown--lable{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.countdown--box{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.counter--text{
+    text-align: center;
+    margin-top: 24px;
+}
+.counter--text p{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0px 0px 32px 0px;
+}
+.animated--div{
+    background-color: #FFFFFF;
+    height: 10px;
+    width: 300px;
+    float: center;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+}
+.animated--div--back{
+    background: linear-gradient(270deg, rgb(242, 94, 218) 0%, rgb(75, 179, 254) 100%);
+    width: 60%;
+    border-radius: 5px 5px 5px 5px;
+    height: 100%;
+    float: left;
+}
+.animated--notes{
+    display: flex;
+    padding: 20px 0 60px 60px;
+}
+.animated--notes p{
+    margin-right: 20px;
+    color: #fff;
+}
+.animated--notes p::before{
+    content: "";
+    width: 1px;
+    height: 35px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    border-left: 1px solid white;
+}
+.button--container{
+    display: flex;
+    justify-content: center;
+}

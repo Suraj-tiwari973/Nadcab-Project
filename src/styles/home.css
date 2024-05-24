@@ -1,0 +1,90 @@
+.elem--container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .left--container{
+    width: 100%;
+} */
+
+.subtitle--wrapper{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+}
+.text{
+    border-bottom: 1px dashed black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.wrap--word{
+  display: inline-block;  
+}
+.word{
+    font-size: 52px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #160647 0%, #160647 100%);
+    -webkit-background-clip: text;
+}
+.para--container{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+.list--container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #FFFFFF0A;
+    padding: 12px 22px 12px 22px;
+    margin: 15px 0px 15px 0px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-right: calc(21px / 2);
+}
+.list p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+}
+.widget--image{
+    margin: 0px 0px 0px 25px;
+    padding: 8px 8px 5px 8px;
+    background-color: transparent;
+    background-image: linear-gradient(223deg, #4FB0FD 0%, #F25EDA 100%);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #160647;
+    border-radius: 50px 50px 50px 50px;
+}
+.right--container{
+    background-image: url('../images/earth.png');
+}
+.avatar--container{
+    display: flex;
+    position: relative;
+    top: 58px;
+}
+.avatar{
+    margin-right: calc(21px / 2);
+}
+.avatar img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.avatar--text{
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}

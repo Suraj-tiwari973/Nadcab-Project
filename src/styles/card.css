@@ -1,0 +1,74 @@
+.ova-heading-2{
+    text-align: center;
+    margin-top: 80px;
+}
+.ova-heading-2 .sub-title-wrapper{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #000;
+}
+.sub-title{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #090505;
+}
+.title{
+    margin: 0 0 20px 0;
+    font-size: 52px;
+    font-weight: 700;
+    color: #160647;
+    line-height: 1.1;
+    white-space: pre-line;
+    position: relative;
+    z-index: 1;
+}
+.title-word{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #F25EDA 10%, #4BB3FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.arrow-icon{
+    display: flex;
+    align-items: center;    
+    margin-top: 20px;
+}
+.arrow-icon a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #04D493;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card--container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1100px) {
+    .card--container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+.card-title{
+    font-size: 30px;
+    color: #160647;
+    font-weight: 700;
+}
+.card-para{
+    padding-top: 25px;
+    text-align: left;
+}
+.card{
+    padding: 63px 40px 35px 40px;
+}
