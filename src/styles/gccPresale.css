@@ -1,6 +1,7 @@
 .presale--container{
 margin-top: 100px;
-margin-bottom: 100px;
+margin-bottom: -300px;
+z-index: 2;
 }
 .ova-heading-2 .sub-title-wrapper {
     display: inline-flex;
