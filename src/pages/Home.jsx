@@ -11,6 +11,9 @@ import Card from "../components/Card";
 import GccBenefits from "../components/GccBenefits";
 import GccPresale from "../components/GccPresale";
 import ZigzagDivs from "../components/ZigzagDivs";
+import Chart from "../components/Chart";
+import Roadmap from "../components/Roadmap";
+import Community from "../components/Community";
 
 const Home = () => {
   return (
@@ -150,6 +153,9 @@ const Home = () => {
       <GccBenefits/>
       <GccPresale/>
       <ZigzagDivs/>
+      <Chart/>
+      <Roadmap/>
+      <Community/>
     </>
   );
 };

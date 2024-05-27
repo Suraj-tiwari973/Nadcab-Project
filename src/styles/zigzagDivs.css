@@ -1,10 +1,98 @@
 .zig-zag-container{
-    background-image: url("../images//process-bg.png");
+    background-image: url("../images/process-bg.png");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-    height: 300px;
-    background-color:#00111E;
+    background-color: #000000;
+}
+.heading-container{
+    padding-bottom: 90px;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.zig-zag-wrapper{
+    padding-top: 24em;
+    border-color: #FFFFFF5E;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #fff;
+}
+.zig-zag-sub-title{
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.zig-zag-title{
+    color: #FFFFFF;
+    margin: 0 0 20px 0;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.1;
+    white-space: pre-line;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+}
+.zig-zag-word{
+    background: linear-gradient(148deg, #FB5FD6 0%, #7D50FF 37.37%, #4BB3FE 75.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.zig-zag-elem-container{
+    display: flex;
+}
+.zig-zag-heading{
+    color: #ffffff;
+    font-style: normal;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 15px;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 3;
+}
+.zig-zag-para{
+    font-family: 'Poppins';
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+.right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zig-zag-elem-container{
+    padding: 20px;
+}
+.zig-zag-elem-container::before{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #F25EDA 0%, #4BB3FE 90%);
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #3DEEA4 0%, #6EDDE8 74.48%, #79D9F8 100%);
+    border-radius: 8px;
+
 }

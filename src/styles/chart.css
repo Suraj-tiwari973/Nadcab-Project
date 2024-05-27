@@ -1,0 +1,218 @@
+.chart--container{
+    background-image: url('../images/process-bg.png');
+    padding-bottom: 150px;
+}
+.chart--elem--container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.chart--subtitle--wrapper{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #000;
+}
+.chart--subtitle{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #090505;
+}
+.chart--heading--container{
+    text-align: center;
+}
+.chart--button--container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.pie-chart-container{
+    margin-top: 60px;
+}
+.btn-1{
+    background-color: #48DCA8;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    margin: 0px 7px 0px 7px;
+    color: #ffffff;
+    padding: 20px 25px;
+
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.btn-2{
+    background-color: #DCDCE7;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    margin: 0px 7px 0px 7px;
+    color: #6D747C;
+    padding: 20px 25px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.div1-container{
+    padding: 60px;
+    background-color: #00D89E;
+}
+.ova-progress{
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ctyl-progress-title{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0px 0px 10px 0px;
+}
+.ova-percent-view-1{
+    background-color: #3D88FB1F;
+    height: 10px;
+    width: 97%;
+    float: left;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-view-2{
+    background-color: #5637C81F;
+    height: 10px;
+    width: 97%;
+    float: left;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-view-3{
+    background-color: #00D89E1F;
+    height: 10px;
+    width: 97%;
+    float: left;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-1{
+    background: #3D88FB;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.ova-percent-2{
+    background: #5637C8;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.ova-percent-3{
+    background: #00D89E;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.percentage{
+    position: absolute;
+    color: #fff;
+    top: -30px;
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    color: #fff;
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D747C;
+}
+.ova-progress-right{
+    text-align: right;
+    width: 100%;
+    position: relative;
+}
+.ctyl-progress-title-right{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0px 0px 10px 0px;
+}
+.ova-percent-view-right-1{
+    background-color: #ACDF351F;
+    height: 10px;
+    width: 97%;
+    float: right;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-view-right-2{
+    background-color: #FF9B5C1F;
+    height: 10px;
+    width: 97%;
+    float: right;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-view-right-3{
+    background-color: #FC33521F;
+    height: 10px;
+    width: 97%;
+    float: right;
+    border-radius: 8px;
+    overflow: visible;
+    position: relative;
+    margin: 0 auto;
+}
+.ova-percent-right-1{
+    background: #ACDF35;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.ova-percent-right-2{
+    background: #FF9B5C;;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.ova-percent-right-3{
+    background: #FC3352;
+    height: 100%;
+    float: left;
+    border-radius: 8px;
+}
+.percentage-right{
+    position: absolute;
+    color: #fff;
+    top: -30px;
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D747C;
+}
